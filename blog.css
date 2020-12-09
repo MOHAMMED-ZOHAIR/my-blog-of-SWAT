@@ -1,0 +1,107 @@
+body {
+    margin: 0%;
+    padding: 0%;
+    background-image: linear-gradient(to left, rgb(139, 139, 247), rgb(178, 217, 240));
+}
+
+header {
+    max-width: auto;
+    padding: 100px;
+    text-align: center;
+    background-image: url(imgs/bgheader.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-size: large;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin-bottom: 20px;
+}
+span {
+    font-weight: bolder;
+}
+header p {
+    font-weight: bolder;
+}
+.slogan {
+    text-align: center;
+    font-style: oblique;
+}
+.logan {
+    text-align: center;
+    font-style: oblique;
+    font-weight: bolder;
+    margin: 5px;
+    margin-bottom: 10px;
+}
+.swat-i {
+    float: left;
+    width: 66%;
+    position: relative;
+    overflow: hidden;
+    margin-left: 20px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    box-sizing: border-box;
+}
+.swat-d {
+    float: left;
+    width: 30%;
+    margin-right: 20px;
+    background-color: rgb(160, 143, 143);
+    padding: 20px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    box-sizing: border-box;
+}
+.inside {
+    overflow: hidden;
+}
+.banner {
+    position: absolute;
+    color: white;
+    left: 20px;
+    bottom: -88px;
+    padding: 20px 20px;
+    background-color: rgba(0, 0, 0, 0.6);
+    transform: translateY(100%);
+}
+footer {
+    background-color: gray;
+    color: white;
+    padding: 30px;
+    text-align: center;
+    font-size: small;
+    margin-top: 20px;
+    float: none;
+}
+@media screen and (max-width: 700px) {
+    .swat-i {
+        width: 97%;
+        margin: 10px;
+        margin-bottom: 0%;
+        border-bottom-left-radius: 0%;
+    }
+    .swat-d {
+        width: auto;
+        margin: 10px;
+        text-align: center;
+        margin-top: 0%;
+        border-bottom-left-radius: 15px;
+        border-bottom-right-radius: 15px;
+        border-top-right-radius: 0%;
+    }
+}
+
+.group:before,
+.group:after {
+  content: "";
+  display: table;
+}
+
+.group:after {
+  clear: both;
+}
+
+.group {
+  zoom: 1;
+}
